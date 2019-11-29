@@ -12,6 +12,10 @@ namespace jrpgsource
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         
+        public GraphicsDeviceManager Graphics
+        {
+            get { return graphics; }
+        }
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
